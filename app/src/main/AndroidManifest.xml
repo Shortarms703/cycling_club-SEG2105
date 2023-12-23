@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CyclingClub"
+        tools:targetApi="31">
+        <activity
+            android:name=".CompleteProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminViewUserListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ParticipantSignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClubSignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventManagerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateDeleteEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClubEventListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddClubEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Club_UpdateDeleteEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchEventActivity"
+            android:exported="false">
+        </activity>
+        <activity android:name=".ParticipantEventActivity"
+            android:exported="false">
+        </activity>
+        <activity android:name=".ParticipantEventList"
+            android:exported="false">
+        </activity>
+    </application>
+
+</manifest>

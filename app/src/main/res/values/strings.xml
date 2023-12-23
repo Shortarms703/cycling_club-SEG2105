@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Grimpeurs Cycling Club</string>
+    <string name="sign_up_club">Club Sign Up</string>
+    <string name="sign_up_participant">Participant Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="proceed_to_Event_Manager">Continue</string>
+</resources>
